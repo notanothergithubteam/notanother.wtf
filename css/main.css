@@ -1,0 +1,23 @@
+h1 {
+    font-family: sans-serif;
+    color: lightgrey;
+    font-weight: lighter;
+}
+
+body {
+    background-color: #202225;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px lightgrey solid;
+    margin-right: 2rem;
+    padding-right: 2rem;
+}
